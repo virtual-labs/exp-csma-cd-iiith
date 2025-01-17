@@ -1,0 +1,44 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="./css/page_0.css">
+
+
+    </head>
+    <body style="background-color: rgb(44,154,209);">
+
+        <div id="pagex"></div>
+
+        <script type="text/babel">
+
+            const PageZeroZero = () => {
+                return (
+                    <>
+                        <div class="center">
+                            <h2>CSMA/CD</h2>
+                            <a href="./page0.html"><button className="buttonstart">Start Learning</button></a>
+                        </div>
+                    </>
+                )
+            }
+
+
+
+
+
+            const container = document.getElementById('pagex');
+            const root = ReactDOM.createRoot(container);
+            root.render(<PageZeroZero />);
+        </script>
+
+
+
+
+        <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+    </body>
+</html>
