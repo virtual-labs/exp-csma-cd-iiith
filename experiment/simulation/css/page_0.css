@@ -16,6 +16,27 @@
     font-size: larger;
 }
 
+.previous{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      left: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+.next{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      right: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+
 
 .navbar-links{
     display: flex;
