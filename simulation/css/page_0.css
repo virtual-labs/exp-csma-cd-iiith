@@ -1,0 +1,55 @@
+.center{
+    top: 40%;
+    left: 45%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonstart{
+    background-color: rgb(152, 203, 59);
+    border-color: rgb(152, 203, 59);
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.previous{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      left: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+.next{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      right: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+
+
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(152, 203, 59);
+}
+
+.navbaritem{
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(152, 203, 59);
+    text-decoration:none;
+    color: blue;
+    font-size: larger;
+}
+

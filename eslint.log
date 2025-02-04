@@ -1,0 +1,25 @@
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page0.js
+  467:10  warning  'sendNode' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page1.js
+    7:5   warning  'collision' is assigned a value but never used  no-unused-vars
+   41:10  warning  'backOff' is defined but never used             no-unused-vars
+   47:10  warning  'backOffClickedAh' is defined but never used    no-unused-vars
+   51:10  warning  'kcheck' is defined but never used              no-unused-vars
+  137:10  warning  'un27' is defined but never used                no-unused-vars
+  555:10  warning  'un15' is defined but never used                no-unused-vars
+  623:7   warning  'un15' is not defined                           no-undef
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page2.js
+    4:5   warning  'collision' is assigned a value but never used  no-unused-vars
+  105:12  warning  'backoff' is defined but never used             no-unused-vars
+  109:12  warning  'kcheck' is defined but never used              no-unused-vars
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page3.js
+    4:5   warning  'collision' is assigned a value but never used  no-unused-vars
+  105:10  warning  'backoff' is defined but never used             no-unused-vars
+  109:10  warning  'kcheck' is defined but never used              no-unused-vars
+
+✖ 14 problems (0 errors, 14 warnings)
+
