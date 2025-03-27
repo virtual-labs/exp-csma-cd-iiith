@@ -9,7 +9,7 @@ If the medium is idle, the device starts transmitting.
 
 If the medium is busy, the device waits until it becomes idle.
 
-2️ Transmission Begins:
+2 Transmission Begins:
 
 The device sends its data frame onto the network.
 
@@ -29,8 +29,7 @@ Once a device detects a collision, it immediately stops transmission.
 
 The device sends a jam signal (a short burst of data) to notify all other devices.
 
-2. Backoff Algorithm (Binary Exponential Backoff)
-🚀 The backoff mechanism ensures that devices don’t transmit again immediately, reducing repeated collisions.
+2. Backoff Algorithm (Binary Exponential Backoff) The backoff mechanism ensures that devices don’t transmit again immediately, reducing repeated collisions.
 
 1 Initial Backoff Time Calculation:
 
@@ -54,7 +53,7 @@ This reduces congestion by spacing out retransmissions.
 If the device reaches 16 collisions, it gives up and reports an error.
 
 1. Minimum Packet Size for Collision Detection
-📏 Why Do We Need a Minimum Packet Size?
+Why Do We Need a Minimum Packet Size?
 
 If a frame is too short, the sender might finish transmission before the collision is detected.
 
