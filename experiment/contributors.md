@@ -8,4 +8,4 @@ EMPTY
 ### Developers
 | SNo. | Name | Email | Institute | ID |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | name | email | institute | id |
+| 1 | S Vigneshwaran | svigneshwaran1073@gmail.com | IIT(BHU) | 21075073 |

@@ -2,38 +2,38 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How does CSMA/CD detect a collision?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By waiting for an acknowledgment signal",
+        "b": "By continuously monitoring the transmission medium",
+        "c": "By using a token-based system",
+        "d": "By sending a preemptive jam signal"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect! CSMA/CD does not rely on acknowledgments for collision detection.",
+        "b": "Correct! Devices listen to the transmission medium and detect voltage spikes due to collisions.",
+        "c": "Incorrect! Token-based systems use token passing, not collision detection.",
+        "d": "Incorrect! Jam signals are sent after detecting a collision, not before."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why is CSMA/CD not commonly used in modern Ethernet networks?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Because wireless networks are more efficient",
+        "b": "Because modern Ethernet uses full-duplex communication",
+        "c": "Because CSMA/CD is not effective at high speeds",
+        "d": "Because token-ring networks have replaced Ethernet"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect! CSMA/CD is used in wired Ethernet, not wireless networks.",
+        "b": "Correct! Full-duplex Ethernet allows simultaneous sending and receiving, eliminating collisions.",
+        "c": "Incorrect! High speed does not inherently make CSMA/CD ineffective.",
+        "d": "Incorrect! Ethernet remains widely used, and token-ring networks are rare."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
