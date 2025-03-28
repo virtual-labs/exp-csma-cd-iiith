@@ -34,6 +34,39 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Why does CSMA/CD use a backoff algorithm after a collision?",
+      "answers": {
+        "a": "To increase network speed",
+        "b": "To ensure devices transmit again at the same time",
+        "c": "To introduce a random delay and reduce repeated collisions",
+        "d": "To prioritize certain devices over others"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What determines the minimum packet size in Ethernet?",
+      "answers": {
+        "a": "The processing speed of the switches",
+        "b": "The propagation delay and collision detection requirements",
+        "c": "The total number of devices on the network",
+        "d": "The number of packets sent per second"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following best describes binary exponential backoff?",
+      "answers": {
+        "a": "A method to increase network bandwidth",
+        "b": "A way to ensure no device transmits data at the same time",
+        "c": "An algorithm that increases wait time exponentially after each collision",
+        "d": "A technique to detect hidden terminals in wireless networks"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
     }
   ]
 }

@@ -34,6 +34,39 @@
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the 'Carrier Sense' in CSMA/CD refer to?",
+      "answers": {
+        "a": "A device continuously transmits data without checking the medium",
+        "b": "A device listens to the network before transmitting data",
+        "c": "A device sends a jam signal after every transmission",
+        "d": "A device only transmits when another device is already sending"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens when a collision is detected in CSMA/CD?",
+      "answers": {
+        "a": "The devices continue transmitting the data",
+        "b": "The network switches to half-duplex mode",
+        "c": "A jam signal is sent, and transmission is stopped",
+        "d": "The collision is ignored, and data transfer resumes"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does CSMA/CD handle multiple collisions?",
+      "answers": {
+        "a": "By using a fixed backoff time for all devices",
+        "b": "By increasing the backoff time exponentially after each collision",
+        "c": "By allowing all devices to transmit simultaneously",
+        "d": "By ignoring the collisions and continuing transmission"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
