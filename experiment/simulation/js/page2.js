@@ -1056,7 +1056,8 @@ var messageaftercollisionifpacketsizeislarge =
     usersigreached = false;
     listening = 2 * Number(packetsize.value.trim());
     console.log(listening);
-    signalcolor = "cyan";
+    // User signal should be red when sending
+    signalcolor = "red";
 
     if (packetsize.value === "") {
       alert("enter packet size !");

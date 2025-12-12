@@ -1055,7 +1055,8 @@ function sendNode() {
   usersigreached = false;
   listening = 2 * packetsize.value;
   console.log(listening);
-  signalcolor = "cyan";
+  // User signal should be red when sending
+  signalcolor = "red";
 
   if (Number(packetsize.value.trim()) === "") {
     alert("enter packet size !");
