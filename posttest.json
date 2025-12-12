@@ -1,0 +1,72 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What happens when a collision is detected in CSMA/CD?",
+      "answers": {
+        "a": "All stations stop transmitting and wait for a random backoff time",
+        "b": "The station that detected the collision continues transmitting",
+        "c": "The station that detected the collision stops and resends immediately",
+        "d": "All stations stop transmitting permanently"
+      },
+      "explanations": {
+        "a": "Correct! When a collision is detected, all stations stop and wait for a random backoff time before retransmitting.",
+        "b": "Incorrect! All stations involved in the collision stop transmitting.",
+        "c": "Incorrect! Immediate retransmission increases the chances of another collision.",
+        "d": "Incorrect! Transmission resumes after the backoff period."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How does the backoff algorithm in CSMA/CD help in collision resolution?",
+      "answers": {
+        "a": "It allows all stations to retransmit at the same time",
+        "b": "It ensures stations wait a fixed time before retransmitting",
+        "c": "It introduces a random delay before retransmission to reduce further collisions",
+        "d": "It prioritizes some stations over others to avoid collisions"
+      },
+      "explanations": {
+        "a": "Incorrect! If all stations retransmit at the same time, another collision occurs.",
+        "b": "Incorrect! The waiting time is random, not fixed.",
+        "c": "Correct! The random delay helps reduce the probability of repeated collisions.",
+        "d": "Incorrect! CSMA/CD does not prioritize specific stations."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why does CSMA/CD use a backoff algorithm after a collision?",
+      "answers": {
+        "a": "To increase network speed",
+        "b": "To ensure devices transmit again at the same time",
+        "c": "To introduce a random delay and reduce repeated collisions",
+        "d": "To prioritize certain devices over others"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What determines the minimum packet size in Ethernet?",
+      "answers": {
+        "a": "The processing speed of the switches",
+        "b": "The propagation delay and collision detection requirements",
+        "c": "The total number of devices on the network",
+        "d": "The number of packets sent per second"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following best describes binary exponential backoff?",
+      "answers": {
+        "a": "A method to increase network bandwidth",
+        "b": "A way to ensure no device transmits data at the same time",
+        "c": "An algorithm that increases wait time exponentially after each collision",
+        "d": "A technique to detect hidden terminals in wireless networks"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}

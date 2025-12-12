@@ -1,0 +1,53 @@
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page0.js
+  467:10  warning  'sendNode' is defined but never used  no-unused-vars
+  486:5   warning  'botsigreached' is not defined        no-undef
+  502:35  warning  'signalcolor' is not defined          no-undef
+  515:35  warning  'signalcolor' is not defined          no-undef
+  528:35  warning  'signalcolor' is not defined          no-undef
+  541:35  warning  'signalcolor' is not defined          no-undef
+  554:35  warning  'signalcolor' is not defined          no-undef
+  567:35  warning  'signalcolor' is not defined          no-undef
+  580:35  warning  'signalcolor' is not defined          no-undef
+  593:35  warning  'signalcolor' is not defined          no-undef
+  606:35  warning  'signalcolor' is not defined          no-undef
+  619:36  warning  'signalcolor' is not defined          no-undef
+  632:36  warning  'signalcolor' is not defined          no-undef
+  645:36  warning  'signalcolor' is not defined          no-undef
+  658:36  warning  'signalcolor' is not defined          no-undef
+  671:36  warning  'signalcolor' is not defined          no-undef
+  684:36  warning  'signalcolor' is not defined          no-undef
+  697:36  warning  'signalcolor' is not defined          no-undef
+  710:36  warning  'signalcolor' is not defined          no-undef
+  723:36  warning  'signalcolor' is not defined          no-undef
+  736:36  warning  'signalcolor' is not defined          no-undef
+  749:36  warning  'signalcolor' is not defined          no-undef
+  762:36  warning  'signalcolor' is not defined          no-undef
+  775:36  warning  'signalcolor' is not defined          no-undef
+  794:36  warning  'signalcolor' is not defined          no-undef
+  817:36  warning  'signalcolor' is not defined          no-undef
+  840:36  warning  'signalcolor' is not defined          no-undef
+  863:36  warning  'signalcolor' is not defined          no-undef
+  886:36  warning  'signalcolor' is not defined          no-undef
+  904:38  warning  'signalcolor' is not defined          no-undef
+  916:36  warning  'signalcolor' is not defined          no-undef
+  926:5   warning  'collision' is not defined            no-undef
+  927:5   warning  'botsigreached' is not defined        no-undef
+  928:5   warning  'signalcolor' is not defined          no-undef
+  947:1   warning  'signalcolor' is not defined          no-undef
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page1.js
+  1497:12  error  Parsing error: Identifier 'bn0' has already been declared
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page2.js
+    4:5   warning  'collision' is assigned a value but never used  no-unused-vars
+  105:12  warning  'backoff' is defined but never used             no-unused-vars
+  109:12  warning  'kcheck' is defined but never used              no-unused-vars
+
+/home/runner/work/exp-csma-cd-iiith/exp-csma-cd-iiith/experiment/simulation/js/page3.js
+    4:5   warning  'collision' is assigned a value but never used  no-unused-vars
+  105:10  warning  'backoff' is defined but never used             no-unused-vars
+  109:10  warning  'kcheck' is defined but never used              no-unused-vars
+
+✖ 42 problems (1 error, 41 warnings)
+

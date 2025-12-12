@@ -1,0 +1,72 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How does CSMA/CD detect a collision?",
+      "answers": {
+        "a": "By waiting for an acknowledgment signal",
+        "b": "By continuously monitoring the transmission medium",
+        "c": "By using a token-based system",
+        "d": "By sending a preemptive jam signal"
+      },
+      "explanations": {
+        "a": "Incorrect! CSMA/CD does not rely on acknowledgments for collision detection.",
+        "b": "Correct! Devices listen to the transmission medium and detect voltage spikes due to collisions.",
+        "c": "Incorrect! Token-based systems use token passing, not collision detection.",
+        "d": "Incorrect! Jam signals are sent after detecting a collision, not before."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is CSMA/CD not commonly used in modern Ethernet networks?",
+      "answers": {
+        "a": "Because wireless networks are more efficient",
+        "b": "Because modern Ethernet uses full-duplex communication",
+        "c": "Because CSMA/CD is not effective at high speeds",
+        "d": "Because token-ring networks have replaced Ethernet"
+      },
+      "explanations": {
+        "a": "Incorrect! CSMA/CD is used in wired Ethernet, not wireless networks.",
+        "b": "Correct! Full-duplex Ethernet allows simultaneous sending and receiving, eliminating collisions.",
+        "c": "Incorrect! High speed does not inherently make CSMA/CD ineffective.",
+        "d": "Incorrect! Ethernet remains widely used, and token-ring networks are rare."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What does the 'Carrier Sense' in CSMA/CD refer to?",
+      "answers": {
+        "a": "A device continuously transmits data without checking the medium",
+        "b": "A device listens to the network before transmitting data",
+        "c": "A device sends a jam signal after every transmission",
+        "d": "A device only transmits when another device is already sending"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens when a collision is detected in CSMA/CD?",
+      "answers": {
+        "a": "The devices continue transmitting the data",
+        "b": "The network switches to half-duplex mode",
+        "c": "A jam signal is sent, and transmission is stopped",
+        "d": "The collision is ignored, and data transfer resumes"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How does CSMA/CD handle multiple collisions?",
+      "answers": {
+        "a": "By using a fixed backoff time for all devices",
+        "b": "By increasing the backoff time exponentially after each collision",
+        "c": "By allowing all devices to transmit simultaneously",
+        "d": "By ignoring the collisions and continuing transmission"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    }
+  ]
+}
