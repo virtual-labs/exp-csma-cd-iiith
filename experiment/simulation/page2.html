@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSMA/CD</title>
+    <link rel="stylesheet" href="./css/page2.css">
+
+</head>
+<body style="background-color: rgb(44,154,209);">
+  <nav class="navbar">
+    <div class="navbar-links">
+      <div class='navbaritem'><a style="text-decoration:none" href="./page0.html">Interference</a></div>
+      <div class='navbaritem'><a style="text-decoration:none" href="./page1.html">Back-Off</a></div>
+      <div class='navbaritem'><a style="text-decoration:none" href="./page2.html"><u>Minimum Size</u></a></div>
+      <div class='navbaritem'><a style="text-decoration:none" href="./page3.html">Exercise</a></div>
+    </div>
+  </nav>
+
+    <div>
+      <div class="message">
+        Network Speed is defined as the rate of data transfer across the medium, typically measured in Mbps. The objective here is to determine the minimum packet size required to successfully detect a collision. <br>
+
+        The time required to transmit a frame is calculated by dividing the Packet Size by the Network Speed. To identify interference, a node must actively transmit data—and simultaneously monitor the channel—for a duration equal to twice the signal's propagation delay (the round-trip time). <br>
+
+        Consequently, successful collision detection is directly dependent on the packet being sufficiently large to span this duration. <br>
+        For a more detailed explanation, please refer to the following link: <a href="https://www.youtube.com/watch?v=Zftv3U5_fwI&t=244s">https://www.youtube.com/watch?v=Zftv3U5_fwI&t=244s</a> <br>
+      </div>
+  
+        <div class="a">
+          <div class="b">
+            <div class="transmitwire">
+              <button id="tw1" class="transmit"></button>
+              <button id="tw2" class="transmit"></button>
+              <button id="tw3" class="transmit"></button>
+              <button id="tw4" class="transmit"></button>
+              <button id="tw5" class="transmit"></button>
+              <button id="tw6" class="transmit"></button>
+              <button id="tw7" class="transmit"></button>
+              <button id="tw8" class="transmit"></button>
+              <button id="tw9" class="transmit"></button>
+              <button id="tw10"  class="transmit"></button>
+              <button id="tw11"  class="transmit"></button>
+              <button id="tw12"  class="transmit"></button>
+              <button id="tw13"  class="transmit"></button>
+              <button id="tw14"  class="transmit"></button>
+              <button id="tw15"  class="transmit"></button>
+              <button id="tw16"  class="transmit"></button>
+              <button id="tw17"  class="transmit"></button>
+              <button id="tw18"  class="transmit"></button>
+              <button id="tw19"  class="transmit"></button>
+              <button id="tw20"  class="transmit"></button>
+              <button id="tw21"  class="transmit"></button>
+              <button id="tw22"  class="transmit"></button>
+              <button id="tw23"  class="transmit"></button>
+              <button id="tw24"  class="transmit"></button>
+              <button id="tw25"  class="transmit"></button>
+              <button id="tw26"  class="transmit"></button>
+              <button id="tw27"  class="transmit"></button>
+              <button id="tw28"  class="transmit"></button>
+              <button id="tw29"  class="transmit"></button>
+            </div>
+            <div class="nodes">
+              <div class="usernodeandsend">
+                <button id="usernode" class="node">User Node</button>
+                <div class="packets">
+                  <br />
+                  <div>
+                    <button class="enterpacketsize">Enter Packet Size</button>
+                  </div>
+                  <div>
+                    <input type="number" id="packetsize" class="inputn" /> MB
+                  </div>
+                </div>
+                <button onclick="sendNode()" class="sendbutton">
+                  Send Data
+                </button>
+                <button onclick="backoff()" class="sendbutton">
+                  Back Off
+                </button>
+              </div>
+              <div class="botnode">
+                <button class="node">Bot Node</button>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="statusk">
+            <div id="message" class="status">
+              Status :
+            </div>
+
+            <div class="kval">
+              <div>
+                <input
+                  type="number"
+                  id="inputk"
+                  placeholder="Enter K value"
+                  class="inputk"
+                />
+              </div>
+              <br>
+              <div>
+                <button onclick="kcheck()" class="checkk">
+                  Check
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <a href="./page1.html">
+          <button class="previous">Previous</button>
+        </a>
+        <a href="./page3.html">
+          <button class="next">Next</button>
+        </a>
+      </div>
+
+      <script src="./js/page2.js"></script>
+
+</body>
+</html>

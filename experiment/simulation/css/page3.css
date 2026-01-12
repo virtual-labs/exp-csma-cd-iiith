@@ -1,0 +1,245 @@
+.a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+.message{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(152, 203, 59);
+}
+
+.previous{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      left: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+.next{
+    position: fixed; /* Sticks the div relative to the viewport */
+      bottom: 0;      /* Aligns the div to the bottom */
+      right: 0; 
+      border-radius: 10px;
+      height: 30px;
+      background-color: rgb(152, 203, 59);
+      border-color: rgb(152, 203, 59); 
+}
+
+
+
+.navbar-links{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(152, 203, 59);
+}
+
+.navbaritem{
+    margin: 5px;
+    padding: 5px;
+    background-color:rgb(152, 203, 59);
+    text-decoration:none;
+    color: blue;
+    font-size: larger;
+}
+
+
+
+.status{
+    padding: 10px;
+    background-color: rgb(152, 203, 59);
+    height: 200px;
+    margin-left: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.transmit{
+    background-color: black;
+    margin: 2px;
+    width: 15px;
+    height: 8px;
+}
+
+
+.node{
+    background-color: rgb(152, 203, 59);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 100px;
+}
+
+.sendbutton{
+    width: 70px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.usernodeandsend{
+    display: flex;
+    flex-direction: column;
+}
+
+.nodes{
+    display: flex;
+    flex-direction: row;
+}
+
+.transmitwire{
+    margin-left: 190px;
+}
+
+.botnode{
+    margin-left: 375px;
+}
+
+button.enterpacketsize{
+    width: 130px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 135px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.checkk{
+    background-color: rgb(255,80,80);
+    border-color: rgb(255, 80, 80);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+
+}
+
+.inputn{
+    margin-left: 185px;
+    border-radius: 5px;
+    width: 40px;
+}
+
+.inputk{
+    margin-top: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.kval{
+    margin-left: 200px;
+}
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+
+    .message{
+        margin-top: 30px;    
+        margin-bottom: 0px;
+    }
+
+.a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+
+.status{
+    padding: 10px;
+    background-color: rgb(152, 203, 59);
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.transmitwire{
+    margin-left: 45px;
+}
+
+.transmit{
+    background-color: black;
+    margin: 1px;
+    width: 8px;
+    height: 2px;
+    min-width: 0px; 
+    min-height: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.botnode{
+    padding-right: 0px;
+    margin-left: 240px;
+}
+
+
+
+
+.node{
+    background-color: rgb(152, 203, 59);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+
+.sendbutton{
+    width: 45px;
+    background-color: rgb(255, 80, 80);
+    border-radius: 5px;
+    border-color: red;
+    margin-left: 30px;
+}
+
+.usernodeandsend{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.nodes{
+    display: flex;
+    flex-direction: row;
+}
+
+.status{
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+button.enterpacketsize{
+    width: 130px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.inputn{
+    margin-left: 55px;
+}
+
+
+    
+.checkk{
+    margin-left : 80px;
+}
+}
